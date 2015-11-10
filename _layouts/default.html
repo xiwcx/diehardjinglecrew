@@ -8,9 +8,14 @@
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <h1>{{ site.name }}</h1>
+        <header class="container">
+          <h1>{{ site.name }}</h1>
+        </header>
 
-        {{ content }}
+        <article class="container">
+          {{ content }}
+        </article>
 
+        {% include footer.html %}
     </body>
 </html>

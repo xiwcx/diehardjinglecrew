@@ -1,9 +1,68 @@
 ---
 ---
 
-$font-size: 1.2em;
+// control the FOUT
+.wf-loading {
+  visibility: hidden;
+}
 
-// start content
-.my-definition {
-  font-size: $font-size;
+.wf-active {
+  visibility: visible;
+}
+
+// base styles
+
+body {
+  background:
+    url('/img/bg-overlay.png') top left repeat fixed,
+    url('/img/yule-log.gif') center center no-repeat fixed
+  ;
+  background-size:
+    auto,
+    cover
+  ;
+  font-family: 'jaf-bernina-sans-condensed';
+  font-style: normal;
+  font-weight: 400;
+  margin: 1em;
+}
+
+strong,
+b {
+  font-family: 'jaf-bernina-sans-condensed';
+  font-style: normal;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'litania';
+  font-style: normal;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+
+  article & {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+// Blocks
+
+.container {
+  margin: 0 auto;
+  max-width: 30em;
 }
