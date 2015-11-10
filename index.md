@@ -9,14 +9,15 @@ Make no mistake, we’re not here to celebrate 8 pound 6 ounce newborn infant je
 
 ![Bad Santa!](/img/bad-santa.gif)
 
-Please direct any questions, suggestions, or requests for removal to the representatives anointed by our precious spirit: Welch (devout atheist, inheritor of Catholic guilt), Meg (the Jewish mother you always wanted and never had), Blake (if jesus was in reincarnated as Macklemore). If you’re wondering what is going on, this is a reverent continuation of the FTW Diehard Skeleton Crew that can be learned about at [https://ftwdiehardskeletoncrew.wordpress.com/]().
+Please direct any questions, suggestions, or requests for removal to the representatives anointed by our precious spirit: Welch (devout atheist, inheritor of Catholic guilt), Meg (the Jewish mother you always wanted and never had), Blake (if jesus was reincarnated as Macklemore). If you’re wondering what is going on, this is a reverent continuation of the [FTW Diehard Skeleton Crew](https://ftwdiehardskeletoncrew.wordpress.com/).
 
 Behold our schedule of slothful celebration:
 
+![Buddy the elf makes a schedule!](/img/buddy-schedule.gif)
+
 ## Wildcard
 
-If and when OPM calls a snow day hurry to the grocery sore to get TP, water, and snacks then head to The Command Center. We will have sleds stockpiled.
-Weekend 1
+If and when [OPM](https://www.opm.gov/) calls a snow day there is a STANDING invitation to head to The Command Center. We will have sleds stockpiled.
 
 ## Weekend 1
 
@@ -36,16 +37,16 @@ Weekend 1
 
 ## Weekend 4
 
-- **Diehard (December 18)**: Watch arguably the best Christmas movie and have a slumber party before setting out in the morning for...
-- **Bethlehem, PA (December 19)**: A pilgrimage to the holy land in order to retrieve a bounty of filthy goods from the gods Vegan Treats.
+- **Diehard (Dec. 18)**: Watch arguably the best Christmas movie and have a slumber party before setting out in the morning for...
+- **Bethlehem, PA (Dec. 19)**: A pilgrimage to the holy land in order to retrieve a bounty of filthy goods from the gods Vegan Treats.
 
 ## Weekend 5
-- **Jewish Christmas (Dec 25)**: eat Chinese food, watch movies until we explode.
+- **Jewish Christmas (Dec. 25)**: eat Chinese food, watch movies until we explode.
 
 ## Weekend 6
 
 - **New Year’s Eve (Dec. 31)**: We can’t believe another year’s gone by and still nothing (NOTHING!) as if we didn’t even try… Come stand in front of the kitchen window with your friends buck naked, drenched in sparkling cider, looking at a bunch of strangers looking at them, looking at us, looking at them…
-- **New Year’s Day (Jan. 1)**: Our pagan sisters will help us commune with the spirit world via the tarot. Come figure out what 2016 holds or shuffle some pieces of paper around a table. Your choice.
+- **New Year’s Day (Jan. 1)**: We’ll give you plenty of time to recover from partying and then we’ll have breakfast for dinner.
 
 ## Weekend 7
 - **Tubing (Jan. 9)**: Come ruin your body with us. Maybe we’ll get a cabin, we’ll cross this bridge when we get to it.

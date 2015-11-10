@@ -1,6 +1,20 @@
 ---
 ---
 
+// colors
+
+$primary-color: #ca1b22;
+$primary-color-low: #ed5361;
+$secondary-color: #59963b;
+$secondary-color-low: #99cc66;
+$tertiary-color: #006bb6;
+$tertiary-color-low: #4099d4;
+$quadrary-color: #edc31c;
+$quadrary-color-low: #f6db87;
+$text-color: hsl(0, 0%, 5%);
+
+$bp-text-breaks-column: 'screen and (min-width: 55em)';
+
 // control the FOUT
 .wf-loading {
   visibility: hidden;
@@ -21,10 +35,12 @@ body {
     auto,
     cover
   ;
+  color: $text-color;
   font-family: 'jaf-bernina-sans-condensed';
+  font-size: 1.25em;
   font-style: normal;
   font-weight: 400;
-  margin: 1em;
+  margin: 1em 1em 4em;
 }
 
 strong,
@@ -32,6 +48,14 @@ b {
   font-family: 'jaf-bernina-sans-condensed';
   font-style: normal;
   font-weight: 700;
+}
+
+a {
+  color: $primary-color;
+
+  &:hover {
+    color: $primary-color-low;
+  }
 }
 
 h1,
@@ -51,6 +75,14 @@ h6,
   font-weight: 400;
 }
 
+h1 {
+  color: $primary-color;
+}
+
+h2 {
+  color: $secondary-color;
+}
+
 img {
   max-width: 100%;
 
@@ -60,9 +92,44 @@ img {
   }
 }
 
+// Helpers
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
 // Blocks
 
 .container {
   margin: 0 auto;
   max-width: 30em;
+}
+
+.header-logo {
+  width: 125%;
+
+  @media #{$bp-text-breaks-column} {
+    margin-left: -25%;
+    max-width: none;
+    width: 150%;
+  }
+}
+
+.header-subtitle {
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media #{$bp-text-breaks-column} {
+    font-size: 3em;
+    margin-top: -1em;
+  }
 }
