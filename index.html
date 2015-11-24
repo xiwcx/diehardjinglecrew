@@ -1,0 +1,37 @@
+---
+layout: default
+title: Schedule
+---
+
+{% capture synopsis %}{% include synopsis.md %}{% endcapture %}
+{{ synopsis | markdownify }}
+
+{% for weekend in site.weekends %}
+  <!-- <section data-date="{{ weekend.date }}" class="weekend {% if forloop.index == 1 %} weekend--past{% endif %}{% if forloop.index == 2 %} weekend--current{% endif %}"> -->
+  <section data-date="{{ weekend.date }}" class="weekend">
+    <h2>{{ weekend.title }}</h2>
+    {{ weekend.content }}
+  </section>
+{% endfor %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/scripts/moment.js"></script>
+
+<script type="text/javascript">
+  var weekends = $(".weekend");
+
+  console.log( weekends );
+
+  for (var i = 0; i < weekends.length; i++) {
+    var weekend = weekends[ i ],
+        now = moment().format('YYYY-MM-DD'),
+        date = weekend.dataset.date,
+        diff = moment( date ).diff( now, 'days' );
+
+    if (diff <= 6 && diff > 0 ) {
+      $( weekend ).addClass( "weekend--next" );
+    } else if ( diff < 0 ) {
+      $( weekend ).addClass( "weekend--past" );
+    }
+  }
+</script>
