@@ -7,8 +7,7 @@ title: Schedule
 {{ synopsis | markdownify }}
 
 {% for weekend in site.weekends %}
-  <!-- <section data-date="{{ weekend.date }}" class="weekend {% if forloop.index == 1 %} weekend--past{% endif %}{% if forloop.index == 2 %} weekend--current{% endif %}"> -->
-  <section data-date="{{ weekend.date }}" class="weekend">
+  <section data-date="{{ weekend.date }}" class="weekend" id="weekend-{{forloop.index}}">
     <h2>{{ weekend.title }}</h2>
     {{ weekend.content }}
   </section>
