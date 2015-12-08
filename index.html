@@ -27,7 +27,7 @@ title: Schedule
         date = weekend.dataset.date,
         diff = moment( date ).diff( now, 'days' );
 
-    if (diff <= 6 && diff > 0 ) {
+    if (diff < 7 && diff > -1 ) {
       $( weekend ).addClass( "weekend--next" );
     } else if ( diff < 0 ) {
       $( weekend ).addClass( "weekend--past" );

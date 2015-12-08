@@ -174,5 +174,17 @@ img {
       color: $color-tertiary-low;
     }
   }
+}
 
+.mainnav {
+  margin: .5em;
+  text-align: center;
+}
+
+.mainnav-item {
+  padding: .5em;
+}
+
+.article {
+  margin-bottom: 8em;
 }
